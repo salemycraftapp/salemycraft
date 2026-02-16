@@ -286,7 +286,7 @@ const Login = () => {
             )}
           </>
         )}
-        <label className="flex items-center gap-2 text-sm text-[#E07A5F]">
+        <label className="flex items-center gap-2 text-sm text-gray-500 hover:text-[#E07A5F]">
           <input
             type="checkbox"
             className="accent-[#E07A5F]"
