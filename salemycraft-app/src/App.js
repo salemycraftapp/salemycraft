@@ -1,8 +1,11 @@
-import logo from "./logo.svg";
-import "./App.css";
-
+import Body from "./components/Body";
+import { AuthProvider } from "./utils/AuthContext";
 function App() {
-  return <div className="text-3xl">HEllo</div>;
+  return (
+    <AuthProvider>
+      <Body />
+    </AuthProvider>
+  );
 }
 
 export default App;
